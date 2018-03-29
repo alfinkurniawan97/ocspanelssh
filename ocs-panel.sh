@@ -35,7 +35,7 @@ echo -en "\n\n"
 
 # Sekarang kita harus menginstall OCS Panel melalui browser untuk mengatur database, user admin, dan passwordnya
 
-echo "==================  sedang malakukan seting ocs untuk mengatur database, user admin, dan passwordnya ... ===================="
+echo "sedang malakukan seting ocs untuk mengatur database, user admin, dan passwordnya ....."
 echo "======================================================================================"
 
 echo "......................................................................................"
