@@ -14,6 +14,8 @@ echo "==========================================================================
 
 echo -en "\n\n"
 
+mysql -u root -p
+# CREATE DATABASE IF NOT EXISTS OCSPANEL;EXIT;
 apt-get -y install git
 cd /home/vps/public_html
 git init
@@ -57,6 +59,8 @@ echo -en "\n\n"
 # Username: Zeph
 # Password Baru: Isikan dengan password OCS yang diinginkan
 # Masukkan Ulang Password: Input ulang password
+# rm -R /home/vps/public_html/installation
+# setting XML webmin http://139.59.108.159:10000
 
 echo "......................................................................................"
 echo "......................................................................................"
