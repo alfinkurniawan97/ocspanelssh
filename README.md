@@ -20,4 +20,4 @@ Requirements
 
 Installation
 ------------
-* Debian: http://infosshanaksolo.blogspot.com/2017/05/install-ssh-reseller-ocs-panel-pada-vps.html
+* Debian: http://www.white-vps.com
