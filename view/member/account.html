@@ -23,10 +23,11 @@
                         <tr><td>Host</td><td>{{ @server->host }}</td></tr>
                         <tr><td>Username</td><td>{{ @user->user }}</td></tr>
                         <tr><td>Password</td><td>{{ @user->pass }}</td></tr>
-                        <tr><td>Port Dropbear</td><td>80, 443</td></tr>
+                        <tr><td>Port Dropbear</td><td>80, 109</td></tr>
+			<tr><td>Port SSL</td><td>443</td></tr>
                         <tr><td>Port OpenSSH</td><td>22, 143</td></tr>
                         <tr><td>Port OpenVPN</td><td>1194</td></tr>
-                        <tr><td>Port Squid</td><td>3128, 8000, 8080</td></tr>
+                        <tr><td>Port Squid</td><td>3128, 80, 8080</td></tr>
                         <tr><td>Config OpenVPN <a href="http://{{ @server->host }}:81/client.ovpn" class="btn btn-default"><i class="fa fa-shopping-cart fa-fw"></i> Download</a></td><td>Tutor Video <a href="https://www.youtube.com/watch?v=Lwo0nv4vIpQ" class="btn btn-default"><i class="fa fa-download fa-fw"></i> HERE!</a></td></tr>
                         <tr><td>Expired Date</td><td>{{ \Webmin::exp_decode(@user->expire) }}</td></tr>
 						<tr class="hidden-print">
