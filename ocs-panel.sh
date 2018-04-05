@@ -24,6 +24,7 @@ git pull origin master
 chmod 777 /home/vps/public_html/config
 chmod 777 /home/vps/public_html/config/config.ini
 chmod 777 /home/vps/public_html/config/route.ini
+apt-get -y -f install libxml-parser-perl
 
 echo "......................................................................................"
 echo "......................................................................................"
