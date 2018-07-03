@@ -14,8 +14,14 @@ echo "==========================================================================
 
 echo -en "\n\n"
 
-apt-get update
-apt-get -y install mysql-server
+apt-get update -y && apt-get upgrade -y
+apt-get install nano -y
+apt-get install apache2 -y
+service apache2 status
+update-rc.d apache2 defaults
+wget http://dev.mysql.com/get/mysql-apt-config_0.7.2-1_all.deb
+apt-get update -y
+apt-get install mysql-server-5.6 -y
 mysql_secure_installation
 chown -R mysql:mysql /var/lib/mysql/
 chmod -R 755 /var/lib/mysql/
